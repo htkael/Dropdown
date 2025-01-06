@@ -1,6 +1,6 @@
 import "./styles.css";
 
-class Dropdown {
+export class Dropdown {
   constructor(title, options = []) {
     this.title = title;
     this.options = options;

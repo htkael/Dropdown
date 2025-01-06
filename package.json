@@ -5,10 +5,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "dropdown",
+    "component",
+    "ui",
+    "css"
+  ],
+  "author": "Hunter Kael <htkael@gmail.com>",
   "license": "ISC",
-  "description": "",
+  "description": "A dropdown component with customizable styles.",
   "devDependencies": {
     "css-loader": "^7.1.2",
     "html-loader": "^5.1.0",
