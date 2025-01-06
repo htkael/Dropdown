@@ -18,17 +18,10 @@ body {
   grid-template-rows: 1fr 4fr;
   justify-content: center;
   position: relative;
-  width: 200px;
-  left: 870px;
+  margin: 0 auto;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
-button {
+.dropButton {
   height: 75px;
   width: 200px;
   font-size: 1.5rem;
@@ -48,14 +41,16 @@ span:hover {
   right: 0;
   left: 0;
   top: 75px;
-  display: none;
   border: 1px solid black;
 }
 
-.items {
+.options {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 .listItem {
@@ -63,8 +58,10 @@ span:hover {
   font-weight: 900;
   border-bottom: 1px solid;
   padding: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .listItem:hover {
+  background-color: rgba(0, 0, 0, 0.1);
   color: blueviolet;
 }
